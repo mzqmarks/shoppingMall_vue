@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>smilevue</title>
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_946680_5y4dv089ays.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      // 获取屏幕宽度
+        let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        
+        if(htmlWidth>750){htmlWidth=750}
+        // console.log(htmlWidth)
+        // 获取html元素
+        let htmlDom = document.getElementsByTagName('html')[0];
+        // 设置html根字体大小
+        htmlDom.style.fontSize = htmlWidth/20 + 'px';
+        // console.log(htmlWidth)
+
+      </script>
+  </body>
+</html>
